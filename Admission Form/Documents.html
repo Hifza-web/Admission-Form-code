@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+         box-sizing: border-box;
+
+        }
+        .Mahreen{
+            text-align: center;
+            font-size: 19px;
+        }
+        .Mahreen h3{
+            margin-top: -20px;
+            color:rgb(110, 184, 69);
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+              background-color: lightgreen;
+              padding: 30px;
+              margin: -6px;
+              border-radius: 20px;
+
+        }
+        nav a{
+          
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        .box{
+            width: 600px;
+            margin: 30px auto;
+            background:white;
+             /* background: rgba(255, 255,255, 0); */
+            border: 2px;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1) ;
+        }
+        .box h2{
+            text-align: center;
+            margin-top: -1px;
+            color:rgb(110, 184, 69);
+        }
+        .box1{
+            margin-bottom:20px;
+        }
+        .box1 label{
+            display: block;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+        .box1 input,select{
+            width: 550px;
+            padding: 5px;
+            border-radius:5px;
+            border:1px solid silver ;
+        }
+         .box2{
+            text-align: right;
+            margin-top:30px;
+         } 
+         .box3{
+            background-color:lightgreen ;
+            padding: 7px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+         }
+         .box3:hover{
+            color:white;
+            background-color: black;
+         }
+         .box4{
+             background-color:lightgreen ;
+            padding: 7px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+         }
+         .box4:hover{
+             color:white;
+            background-color: black;
+         }
+
+         
+    </style>
+</head>
+<body>
+     <header class="Mahreen">
+         <h2>Undergraduate Admission 2025</h2>
+         <h3>Application Form</h3>
+    </header>
+    <nav>
+        <a href="index.html">Personal Details</a>
+        <a href="Contact.html">Contact Details</a>
+        <a href="Qualification.html">Qualification Details</a>
+        <a href="Documents.html">Upload Documents</a>
+        <a href="Preview.html">Preview Form</a>
+    </nav>
+    <div class="box">
+      <h2>Upload Documents</h2>
+    <form action="">
+        <div class="box1">
+        <label for="">Matric Certificate</label>
+        <input type="file" accept="image/*" required>
+        </div>
+        <div class="box1">
+        <label for="">Intermediate Part 1</label>
+        <input type="file" accept="image/*" required>
+        </div>
+        <div class="box1">
+        <label for="">Intermediate Part 2</label>
+        <input type="file" accept="image/*" required>
+        </div>
+        <div class="box1">
+        <label for="">CNIC Front</label>
+        <input type="file" accept="image/*" required>
+        </div>
+        <div class="box1">
+        <label for="">CNIC Back</label>
+        <input type="file" accept="image/*" required>
+        </div>
+        <div class="box1">
+        <label for="">Other Document (optional)</label>
+        <input type="file" accept="image/*" required>
+        </div>
+        <div class="box2">
+            <a href="Qualification.html" class="box4">⟵ Previous</a>
+            <a href="Preview.html" class="box3">Next ⟶</a>
+        </div>
+         </div>
+    </form>
+</body>
+</html>
